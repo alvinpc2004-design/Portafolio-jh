@@ -1,0 +1,455 @@
+﻿<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portafolio Alvin</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Grotesk:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link type="image/png" sizes="32x32" rel="icon" href="https://img.icons8.com/color/32/adobe-photoshop--v1.png" />
+  <link type="image/png" sizes="32x32" rel="icon" href="https://img.icons8.com/color/32/adobe-illustrator--v1.png" />
+  <link type="image/png" sizes="32x32" rel="icon" href="https://img.icons8.com/color/32/adobe-indesign.png" />
+  <link type="image/png" sizes="32x32" rel="icon" href="https://img.icons8.com/color/32/adobe-after-effects.png" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-bg" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <nav class="nav">
+      <a href="#intro" class="active" aria-current="page">Intro</a>
+      <a href="#galeria">Galeria</a>
+      <a href="#fotos">Fotos</a>
+      <a href="#sobre">Sobre mi</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="intro" class="hero scroll-reveal from-left">
+      <div class="hero-copy">
+        <h1>PORTAFOLIO</h1>
+        <p class="name">Alvin Jhonatan Ponce Carreño</p>
+        <p class="summary">Diseño grafico y produccion crossmedia. Ilustrador digital.</p>
+        <a class="cta" href="#galeria">Ver mas</a>
+      </div>
+    </section>
+
+    <section id="galeria" class="section gallery scroll-reveal from-right grid-collapsed">
+      <div class="gallery-top">
+        <div class="gallery-card">
+          <h2>GALERIA</h2>
+          <div class="line"></div>
+          <p>La galeria esta conformada por trabajos, estudios, experimentos y fotografías.</p>
+          <button class="cta gallery-toggle-btn" type="button" aria-expanded="false" aria-controls="gallery-grid">Ver</button>
+        </div>
+        <div class="gallery-preview" aria-hidden="true"></div>
+      </div>
+
+      <div class="gallery-grid" id="gallery-grid">
+        <div class="tile t1" style="--img: url('a.png')" data-src="a.png" data-lightbox-title="La fosa"></div>
+        <div class="tile t2" style="--img: url('tienda prueba.jpg')" data-src="tienda prueba.jpg" data-lightbox-title="Una bodeguita de barrio"></div>
+        <div class="tile t3" style="--img: url('g.png')" data-src="g.png" data-lightbox-title="Juego de sombras"></div>
+        <div class="tile t4" style="--img: url('j.png')" data-src="j.png" data-lightbox-title="Juego de sombras"></div>
+        <div class="tile t5" style="--img: url('brujo.png')" data-src="brujo.png" data-lightbox-title="La fosa"></div>
+        <div class="tile t6" style="--img: url('post-instagram.png')" data-src="post-instagram.png" data-lightbox-title="Ceci beats coffe"></div>
+        <div class="tile t7" style="--img: url('t.png')" data-src="t.png" data-lightbox-title="Juego de sombras"></div>
+        <div class="tile t8" style="--img: url('tienda2.png')" data-src="tienda2.png" data-lightbox-title="Una bodeguita de barrio"></div>
+        <div class="tile t9" style="--img: url('tienda3.png')" data-src="tienda3.png" data-lightbox-title="Una bodeguita de barrio"></div>
+        <div class="tile t10" style="--img: url('v.png')" data-src="v.png" data-lightbox-title="Juego de sombras"></div>
+      </div>
+    </section>
+
+    <section id="fotos" class="section photos scroll-reveal from-bottom photos-collapsed">
+      <div class="photos-header">
+        <h2>FOTOS</h2>
+        <button class="cta photos-toggle-btn" type="button" aria-expanded="false" aria-controls="photos-catalog">Ver</button>
+      </div>
+      <div class="photos-catalog" id="photos-catalog">
+        <button class="photo-item p1" type="button" data-lightbox-src="GOPR2747 (1).jpg" data-lightbox-title="fabrica antigua">
+          <img src="GOPR2747 (1).jpg" alt="Foto 1" loading="lazy" />
+        </button>
+        <button class="photo-item p2" type="button" data-lightbox-src="GOPR2776 (1).jpg" data-lightbox-title="fabrica antigua">
+          <img src="GOPR2776 (1).jpg" alt="Foto 2" loading="lazy" />
+        </button>
+        <button class="photo-item p3" type="button" data-lightbox-src="IMG_20250324_163430_240 (2).jpg" data-lightbox-title="Tunja- Colombia">
+          <img src="IMG_20250324_163430_240 (2).jpg" alt="Foto 3" loading="lazy" />
+        </button>
+        <button class="photo-item p4" type="button" data-lightbox-src="IMG_20250406_160107_326.jpg" data-lightbox-title="Tunja- Colombia">
+          <img src="IMG_20250406_160107_326.jpg" alt="Foto 4" loading="lazy" />
+        </button>
+        <button class="photo-item p5" type="button" data-lightbox-src="IMG_20250412_161912_645.jpg" data-lightbox-title="barrio colombiano">
+          <img src="IMG_20250412_161912_645.jpg" alt="Foto 5" loading="lazy" />
+        </button>
+        <button class="photo-item p6" type="button" data-lightbox-src="IMG_20250414_150407_513.jpg" data-lightbox-title="Local chino">
+          <img src="IMG_20250414_150407_513.jpg" alt="Foto 6" loading="lazy" />
+        </button>
+        <button class="photo-item p7" type="button" data-lightbox-src="IMG_20250414_150758_578.jpg" data-lightbox-title="barrio chino">
+          <img src="IMG_20250414_150758_578.jpg" alt="Foto 7" loading="lazy" />
+        </button>
+        <button class="photo-item p8" type="button" data-lightbox-src="IMG_20250414_151442_230 (1).jpg" data-lightbox-title="cuadro chino">
+          <img src="IMG_20250414_151442_230 (1).jpg" alt="Foto 8" loading="lazy" />
+        </button>
+        <button class="photo-item p9" type="button" data-lightbox-src="IMG_20250417_123234_082.jpg" data-lightbox-title="iglesia antiguo">
+          <img src="IMG_20250417_123234_082.jpg" alt="Foto 9" loading="lazy" />
+        </button>
+        <button class="photo-item p10" type="button" data-lightbox-src="IMG_20250417_163946_349.jpg" data-lightbox-title="Pueblito">
+          <img src="IMG_20250417_163946_349.jpg" alt="Foto 10" loading="lazy" />
+        </button>
+        <button class="photo-item" type="button" data-lightbox-src="IMG_20250429_113000_526.jpg" data-lightbox-title="fabrica antigua">
+          <img src="IMG_20250429_113000_526.jpg" alt="Foto 11" loading="lazy" />
+        </button>
+        <button class="photo-item" type="button" data-lightbox-src="IMG_20250611_100749_182.jpg" data-lightbox-title="repeticion">
+          <img src="IMG_20250611_100749_182.jpg" alt="Foto 12" loading="lazy" />
+        </button>
+        <button class="photo-item" type="button" data-lightbox-src="IMG_20250504_114438_516.jpg" data-lightbox-title="cosechas">
+          <img src="IMG_20250504_114438_516.jpg" alt="Foto 13" loading="lazy" />
+        </button>
+        <button class="photo-item" type="button" data-lightbox-src="IMG_20250504_122041_611 (2).jpg" data-lightbox-title="nublado">
+          <img src="IMG_20250504_122041_611 (2).jpg" alt="Foto 14" loading="lazy" />
+        </button>
+        <button class="photo-item" type="button" data-lightbox-src="IMG_20250504_144733_273.jpg" data-lightbox-title="nubes">
+          <img src="IMG_20250504_144733_273.jpg" alt="Foto 15" loading="lazy" />
+        </button>
+        <button class="photo-item" type="button" data-lightbox-src="IMG_20250504_144805_316.jpg" data-lightbox-title="Camino largo">
+          <img src="IMG_20250504_144805_316.jpg" alt="Foto 16" loading="lazy" />
+        </button>
+        <button class="photo-item" type="button" data-lightbox-src="IMG_20250531_125457_869.jpg" data-lightbox-title="iglesia">
+          <img src="IMG_20250531_125457_869.jpg" alt="Foto 17" loading="lazy" />
+        </button>
+        <button class="photo-item" type="button" data-lightbox-src="IMG_20250531_165323_395.jpg" data-lightbox-title="Casa de corada">
+          <img src="IMG_20250531_165323_395.jpg" alt="Foto 18" loading="lazy" />
+        </button>
+        <button class="photo-item" type="button" data-lightbox-src="IMG_20250611_100246_309 (1).jpg" data-lightbox-title="noche de juegos">
+          <img src="IMG_20250611_100246_309 (1).jpg" alt="Foto 19" loading="lazy" />
+        </button>
+        <button class="photo-item" type="button" data-lightbox-src="IMG_20250611_100333_366.jpg" data-lightbox-title="Feria- Diseño grafico">
+          <img src="IMG_20250611_100333_366.jpg" alt="Foto 20" loading="lazy" />
+        </button>
+        <button class="photo-item" type="button" data-lightbox-src="IMG_20250504_105502_552.jpg" data-lightbox-title="Gato durmiendo">
+          <img src="IMG_20250504_105502_552.jpg" alt="Foto 21" loading="lazy" />
+        </button>
+        <button class="photo-item" type="button" data-lightbox-src="IMG_20250617_183536_267.jpg" data-lightbox-title="Reloj- Cartajena">
+          <img src="IMG_20250617_183536_267.jpg" alt="Foto 22" loading="lazy" />
+        </button>
+        <button class="photo-item" type="button" data-lightbox-src="post-instagram-5.png" data-lightbox-title="Ceci beats coffe">
+          <img src="post-instagram-5.png" alt="Foto 23" loading="lazy" />
+        </button>
+      </div>
+    </section>
+
+    <section id="sobre" class="section about scroll-reveal from-left">
+      <div class="about-panel">
+        <div class="about-image" aria-hidden="true"></div>
+        <div class="about-text">
+          <div class="about-content">
+            <h2>SOBRE MI</h2>
+            <p>
+              Soy Alvin, diseñador gráfico e ilustrador. En mi tiempo libre me dedico a la fotografía, lo que complementa y enriquece mi visión creativa. Me destaco por mi rápida curva de aprendizaje y mi mejora constante en áreas de diseño, dibujo y composición. Cuento con un dominio avanzado de herramientas clave del sector, incluyendo Photoshop, Illustrator, InDesign y Blender. Como profesional, me caracterizo por mi versatilidad; no me limito a un único estilo visual, sino que me adapto y aprendo continuamente nuevas técnicas para ofrecer la mejor solución y superar las expectativas de cada cliente.
+            </p>
+            <div class="about-actions">
+              <a class="cta ghost with-icon" href="https://www.instagram.com/alvipcj/" target="_blank" rel="noopener" aria-label="Instagram @alvipcj">
+                <svg aria-hidden="true" viewBox="0 0 24 24" focusable="false">
+                  <path fill="currentColor" d="M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4zm10 2H7a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2zm-5 3.5a4.5 4.5 0 1 1 0 9a4.5 4.5 0 0 1 0-9zm0 2a2.5 2.5 0 1 0 0 5a2.5 2.5 0 0 0 0-5zm5.25-2.75a1 1 0 1 1 0 2a1 1 0 0 1 0-2z"/>
+                </svg>
+                @alvipcj
+              </a>
+              <a class="cta ghost with-icon" href="https://www.behance.net/alvinpc" target="_blank" rel="noopener" aria-label="Behance">
+                <img src="https://img.icons8.com/ios-filled/24/behance.png" alt="" width="18" height="18" aria-hidden="true" />
+                Behance
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="about-tools" aria-label="Iconos de herramientas">
+          <div class="about-tool-frame">
+            <img class="about-tool-icon" width="50" height="50" src="https://img.icons8.com/color/50/adobe-photoshop--v1.png" alt="photoshop" loading="lazy" />
+          </div>
+          <div class="about-tool-frame">
+            <img class="about-tool-icon" width="50" height="50" src="https://img.icons8.com/color/50/adobe-illustrator--v1.png" alt="illustrator" loading="lazy" />
+          </div>
+          <div class="about-tool-frame">
+            <img class="about-tool-icon" width="50" height="50" src="https://img.icons8.com/color/50/adobe-indesign.png" alt="indesign" loading="lazy" />
+          </div>
+          <div class="about-tool-frame">
+            <img class="about-tool-icon" width="50" height="50" src="https://img.icons8.com/color/50/adobe-after-effects.png" alt="after-effects" loading="lazy" />
+          </div>
+          <img class="about-tool blender" width="50" height="50" src="https://img.icons8.com/ios-filled/50/blender-3d.png" alt="blender-3d" loading="lazy" />
+          <img width="96" height="96" src="https://img.icons8.com/color/96/figma--v1.png" alt="figma--v1" />
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="section contact scroll-reveal from-right">
+      <h2>Contacto</h2>
+      <div class="contact-card">
+        <h3>Consulta</h3>
+        <p>Si deseas ponerte en contacto conmigo, completa el formulario a continuacion.</p>
+        <form class="contact-form">
+          <label>
+            Nombre y/o empresa
+            <input type="text" placeholder="Nombre o Estudio" />
+          </label>
+          <label>
+            Correo electronico
+            <input type="email" placeholder="correo@ejemplo.com" />
+          </label>
+          <div class="row">
+            <label>
+              Codigo
+              <input type="text" placeholder="+591" />
+            </label>
+            <label>
+              Telefono
+              <input type="tel" placeholder="000 00000" />
+            </label>
+          </div>
+          <label>
+            Tipo de comision?
+            <input type="text" placeholder="Ilustracion, branding, editorial" />
+          </label>
+          <label>
+            Mensaje adicional
+            <textarea rows="4" placeholder="Cuentame sobre el proyecto"></textarea>
+          </label>
+          <button class="cta">Entregar</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" type="button" aria-label="Cerrar">x</button>
+    <button class="lightbox-nav prev" type="button" aria-label="Foto anterior">&#8249;</button>
+    <figure class="lightbox-figure">
+      <img class="lightbox-img" alt="Imagen ampliada" />
+      <figcaption class="lightbox-caption">
+        <strong class="lightbox-title">Foto</strong>
+        <span class="lightbox-counter">1 / 1</span>
+      </figcaption>
+    </figure>
+    <button class="lightbox-nav next" type="button" aria-label="Siguiente foto">&#8250;</button>
+  </div>
+
+    <script>
+    (function () {
+      const animatedSections = Array.from(document.querySelectorAll('.scroll-reveal'));
+      const items = Array.from(document.querySelectorAll('[data-lightbox-src], .gallery-grid .tile[data-src]'));
+      const lightbox = document.getElementById('lightbox');
+      const img = lightbox.querySelector('.lightbox-img');
+      const closeBtn = lightbox.querySelector('.lightbox-close');
+      const prevBtn = lightbox.querySelector('.lightbox-nav.prev');
+      const nextBtn = lightbox.querySelector('.lightbox-nav.next');
+      const titleEl = lightbox.querySelector('.lightbox-title');
+      const counterEl = lightbox.querySelector('.lightbox-counter');
+      const gallerySection = document.getElementById('galeria');
+      const galleryGrid = gallerySection ? gallerySection.querySelector('.gallery-grid') : null;
+      const galleryToggleBtn = gallerySection ? gallerySection.querySelector('.gallery-toggle-btn') : null;
+      const photosSection = document.getElementById('fotos');
+      const photosCatalog = photosSection ? photosSection.querySelector('.photos-catalog') : null;
+      const photosToggleBtn = photosSection ? photosSection.querySelector('.photos-toggle-btn') : null;
+      const navLinks = Array.from(document.querySelectorAll('.nav a[href^="#"]'));
+      const navSections = navLinks
+        .map((link) => document.querySelector(link.getAttribute('href')))
+        .filter(Boolean);
+      let currentIndex = 0;
+
+      function setGalleryCollapsed(collapsed) {
+        if (!gallerySection || !galleryToggleBtn) return;
+
+        gallerySection.classList.toggle('grid-collapsed', collapsed);
+        gallerySection.classList.remove('grid-expanding');
+        galleryToggleBtn.textContent = collapsed ? 'Ver' : 'Ocultar';
+        galleryToggleBtn.setAttribute('aria-expanded', String(!collapsed));
+
+        if (!collapsed) {
+          void gallerySection.offsetWidth;
+          gallerySection.classList.add('grid-expanding');
+          window.setTimeout(() => {
+            gallerySection.classList.remove('grid-expanding');
+          }, 560);
+        }
+      }
+
+      function setPhotosCollapsed(collapsed) {
+        if (!photosSection || !photosToggleBtn) return;
+
+        photosSection.classList.toggle('photos-collapsed', collapsed);
+        photosSection.classList.remove('photos-expanding');
+        photosToggleBtn.textContent = collapsed ? 'Ver' : 'Ocultar';
+        photosToggleBtn.setAttribute('aria-expanded', String(!collapsed));
+
+        if (!collapsed) {
+          void photosSection.offsetWidth;
+          photosSection.classList.add('photos-expanding');
+          window.setTimeout(() => {
+            photosSection.classList.remove('photos-expanding');
+          }, 620);
+        }
+      }
+
+      function setActiveNavById(sectionId) {
+        if (!sectionId) return;
+        navLinks.forEach((link) => {
+          const targetHash = '#' + sectionId;
+          const isActive = link.getAttribute('href') === targetHash;
+          link.classList.toggle('active', isActive);
+          if (isActive) {
+            link.setAttribute('aria-current', 'page');
+          } else {
+            link.removeAttribute('aria-current');
+          }
+        });
+      }
+
+      function getItemSource(item) {
+        return item.getAttribute('data-lightbox-src') || item.getAttribute('data-src') || '';
+      }
+
+      function getItemTitle(item, index) {
+        return item.getAttribute('data-lightbox-title') || item.getAttribute('aria-label') || ('Foto ' + (index + 1));
+      }
+
+      function animateCurrentImage() {
+        img.classList.remove('is-entering');
+        void img.offsetWidth;
+        img.classList.add('is-entering');
+      }
+
+      function showItem(index) {
+        if (!items.length) return;
+        currentIndex = (index + items.length) % items.length;
+        const currentItem = items[currentIndex];
+        const src = getItemSource(currentItem);
+        if (!src) return;
+
+        img.src = src;
+        titleEl.textContent = getItemTitle(currentItem, currentIndex);
+        counterEl.textContent = 'Imagen ' + (currentIndex + 1) + ' de ' + items.length;
+
+        if (img.complete) {
+          animateCurrentImage();
+        } else {
+          img.onload = animateCurrentImage;
+        }
+      }
+
+      function openLightbox(index) {
+        showItem(index);
+        lightbox.classList.add('open');
+        lightbox.setAttribute('aria-hidden', 'false');
+      }
+
+      function closeLightbox() {
+        lightbox.classList.remove('open');
+        lightbox.setAttribute('aria-hidden', 'true');
+        img.src = '';
+        img.onload = null;
+        img.classList.remove('is-entering');
+      }
+
+      if (gallerySection && galleryGrid && galleryToggleBtn) {
+        setGalleryCollapsed(gallerySection.classList.contains('grid-collapsed'));
+        galleryToggleBtn.addEventListener('click', () => {
+          const collapsedNow = gallerySection.classList.contains('grid-collapsed');
+          setGalleryCollapsed(!collapsedNow);
+        });
+      }
+
+      if (photosSection && photosCatalog && photosToggleBtn) {
+        setPhotosCollapsed(photosSection.classList.contains('photos-collapsed'));
+        photosToggleBtn.addEventListener('click', () => {
+          const collapsedNow = photosSection.classList.contains('photos-collapsed');
+          setPhotosCollapsed(!collapsedNow);
+        });
+      }
+
+      if (navLinks.length) {
+        const firstId = navLinks[0].getAttribute('href').replace('#', '');
+        const hashId = window.location.hash ? window.location.hash.replace('#', '') : '';
+        const initialId = navSections.some((section) => section.id === hashId) ? hashId : firstId;
+        setActiveNavById(initialId);
+
+        navLinks.forEach((link) => {
+          link.addEventListener('click', () => {
+            const targetId = link.getAttribute('href').replace('#', '');
+            setActiveNavById(targetId);
+            link.classList.remove('is-activating');
+            void link.offsetWidth;
+            link.classList.add('is-activating');
+          });
+
+          link.addEventListener('animationend', () => {
+            link.classList.remove('is-activating');
+          });
+        });
+
+        if ('IntersectionObserver' in window && navSections.length) {
+          const navObserver = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+              if (!entry.isIntersecting) return;
+              setActiveNavById(entry.target.id);
+            });
+          }, {
+            rootMargin: '-38% 0px -52% 0px',
+            threshold: 0
+          });
+
+          navSections.forEach((section) => navObserver.observe(section));
+        }
+      }
+
+      if (animatedSections.length) {
+        if ('IntersectionObserver' in window) {
+          const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+              if (!entry.isIntersecting) return;
+              entry.target.classList.add('in-view');
+              observer.unobserve(entry.target);
+            });
+          }, {
+            threshold: 0.2
+          });
+
+          animatedSections.forEach((section) => observer.observe(section));
+        } else {
+          animatedSections.forEach((section) => section.classList.add('in-view'));
+        }
+      }
+
+      items.forEach((item, index) => {
+        item.addEventListener('click', () => {
+          if (item.classList.contains('tile')) {
+            if (item.classList.contains('is-selecting')) return;
+            item.classList.add('is-selecting');
+
+            window.setTimeout(() => {
+              item.classList.remove('is-selecting');
+              openLightbox(index);
+            }, 140);
+            return;
+          }
+
+          openLightbox(index);
+        });
+      });
+
+      prevBtn.addEventListener('click', () => showItem(currentIndex - 1));
+      nextBtn.addEventListener('click', () => showItem(currentIndex + 1));
+      closeBtn.addEventListener('click', closeLightbox);
+
+      lightbox.addEventListener('click', (e) => {
+        if (e.target === lightbox) closeLightbox();
+      });
+
+      document.addEventListener('keydown', (e) => {
+        if (!lightbox.classList.contains('open')) return;
+        if (e.key === 'Escape') closeLightbox();
+        if (e.key === 'ArrowLeft') showItem(currentIndex - 1);
+        if (e.key === 'ArrowRight') showItem(currentIndex + 1);
+      });
+    })();
+  </script>
+</body>
+</html>
